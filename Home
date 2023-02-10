@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="icon" type="image/jpg" href="https://static.wixstatic.com/media/83b738_73c7b02c94224dfe987add901296147d~mv2.jpg">
+    <style>
+          .header-image {
+        height: 80px;
+        position: absolute;
+        width: 95%;
+        z-index: 1;
+      }
+      .embedded-site {
+        height: 700px;
+        margin-top: 10px;
+        position: relative;
+        width: 100%;
+        z-index: 0;
+      }
+      iframe {
+        border: none;
+        height: 700px;
+        width: calc(100% + 20px);
+        background-color: #b9d774;
+        margin-top: -90px;
+        margin-left: -10px;
+        margin-right: -10px;
+        transform: translateY(30px);
+      }
+    </style>
+  </head>
+  <body>
+    <img src="https://static.wixstatic.com/media/83b738_74f90f51669241f68798c24a037ad04d~mv2.png" class="header-image" alt="Header Image">
+    <div class="embedded-site">
+      <iframe src="https://nelsont492.editorx.io/education-station"></iframe>
+    </div>
+  </body>
+</html>
+
+
+
+
+
+
+
+
+
+
